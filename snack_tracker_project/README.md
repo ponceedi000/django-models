@@ -7,7 +7,7 @@
 ## Overview
 - Utilize a high-level Python web framework called Django to create a basic web site.
 - Understand it's basic architecture:
-  * model
+  * models
   * template
   * views
   * apps
@@ -21,31 +21,34 @@
   * add urlpatterns
   * add templates
   * add tests
+  * add model
 
 ## User Acceptance Tests
-- Use Django’s built in testing tools
-  * Test that home and about url status codes
-  * Test home and about url template use, including ancestor template.
+
+- Test Snack pages
+  * NOTE make sure test extends TestCase instead of SimpleTestCase used in previous class.
+  * verify status code
+  * verify correct template use
+  * use url name instead of hard coded path
 
 ## Architecture
 - Python
 - Django
 ## Change Log
-- 02-26-2022 (5:00pm): All 6 unit tests are passing and all of the pages are rendering the appropriate text
+- 03-02-2022 (9:47pm): All unit tests are passing and all of the pages are rendering the appropriate text
 
-### Name of feature: Create web site in Django with 2 pages
+### Name of feature: Create web site in Django with emphasis on models
 
 - Estimate of time needed to complete: 3hrs
 
-- Start time: 1:30pm
+- Start time: 6:30pm
 
-- Finish time: 5:00pm
+- Finish time: 9:48pm
 
-- Actual time needed to complete: 3 1/2hrs
+- Actual time needed to complete: 3+ hrs
 
 Note: Had to troubleshoot Django issues do to using WSL. I fixed testing issues by switching my repo over windows side, and using the command prompt to run tests instead of terminal
 
 
 ## Credits 
 - [Command Prompt Commands](https://www.lifewire.com/list-of-command-prompt-commands-4092302)
-- [How to get Django](https://www.djangoproject.com/download/)
